@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000391] (-) JobUnselected: {'identifier': 'bno085'}
+[0.001883] (-) JobUnselected: {'identifier': 'calibration'}
+[0.002055] (-) JobUnselected: {'identifier': 'fast_lio'}
+[0.002141] (-) JobUnselected: {'identifier': 'libcamera'}
+[0.002173] (-) JobUnselected: {'identifier': 'livox_control'}
+[0.002204] (-) JobUnselected: {'identifier': 'livox_interfaces'}
+[0.002248] (-) JobUnselected: {'identifier': 'livox_ros2_driver'}
+[0.002269] (-) JobUnselected: {'identifier': 'livox_sdk_vendor'}
+[0.002307] (camera_ros) JobQueued: {'identifier': 'camera_ros', 'dependencies': OrderedDict({'libcamera': '/home/pi-mid70/ws_livox/src/install/libcamera'})}
+[0.002378] (camera_ros) JobStarted: {'identifier': 'camera_ros'}
+[0.024747] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'cmake'}
+[0.025650] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/pi-mid70/ws_livox/src/camera_ros', '-DCMAKE_INSTALL_PREFIX=/home/pi-mid70/ws_livox/src/install/camera_ros'], 'cwd': '/home/pi-mid70/ws_livox/src/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi-mid70', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/home/pi-mid70/ws_livox/install/livox_ros2_driver/lib:/home/pi-mid70/ws_livox/install/livox_interfaces/lib:/home/pi-mid70/ws_livox/install/camera_ros/lib:/home/pi-mid70/ws_livox/install/libcamera/lib:/home/pi-mid70/ws_livox/install/fast_lio/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi-mid70', 'OLDPWD': '/home/pi-mid70/ws_livox/src/libcamera', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1714', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pi-mid70/ws_livox/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi-mid70', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi-mid70/ws_livox/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi-mid70', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/pi-mid70/ws_livox/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pi-mid70:@/tmp/.ICE-unix/1674,unix/pi-mid70:/tmp/.ICE-unix/1674', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e9614655_c73b_4186_8ba5_c7e6ab14f79d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.8M4G82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.1081', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pi-mid70/ws_livox/install/livox_ros2_driver:/home/pi-mid70/ws_livox/install/livox_sdk_vendor:/home/pi-mid70/ws_livox/install/livox_interfaces:/home/pi-mid70/ws_livox/install/camera_ros:/home/pi-mid70/ws_livox/install/fast_lio:/home/pi-mid70/ws_livox/install/calibration:/home/pi-mid70/ws_livox/install/bno085:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi-mid70/ws_livox/src/build/camera_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi-mid70/ws_livox/install/livox_interfaces/lib/python3.12/site-packages:/home/pi-mid70/ws_livox/install/libcamera/lib/python3.12/site-packages:/home/pi-mid70/ws_livox/install/fast_lio/lib/python3.12/site-packages:/home/pi-mid70/ws_livox/install/calibration/lib/python3.12/site-packages:/home/pi-mid70/ws_livox/build/bno085:/home/pi-mid70/ws_livox/install/bno085/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pi-mid70/ws_livox/install/livox_ros2_driver:/home/pi-mid70/ws_livox/install/livox_sdk_vendor:/home/pi-mid70/ws_livox/install/livox_interfaces:/home/pi-mid70/ws_livox/install/camera_ros:/home/pi-mid70/ws_livox/install/fast_lio:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pi-mid70/ws_livox/install/calibration:/home/pi-mid70/ws_livox/install/bno085:/opt/ros/jazzy'}), 'shell': False}
+[0.099707] (-) TimerEvent: {}
+[0.200063] (-) TimerEvent: {}
+[0.249263] (camera_ros) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.300177] (-) TimerEvent: {}
+[0.400545] (-) TimerEvent: {}
+[0.433293] (camera_ros) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.467988] (camera_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500669] (-) TimerEvent: {}
+[0.601057] (-) TimerEvent: {}
+[0.652736] (camera_ros) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.667690] (camera_ros) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.668235] (camera_ros) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.668960] (camera_ros) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.683970] (camera_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701194] (-) TimerEvent: {}
+[0.801577] (-) TimerEvent: {}
+[0.885776] (camera_ros) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.901690] (-) TimerEvent: {}
+[0.902094] (camera_ros) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.903129] (camera_ros) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.905017] (camera_ros) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.923360] (camera_ros) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[0.931397] (camera_ros) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.001822] (-) TimerEvent: {}
+[1.102230] (-) TimerEvent: {}
+[1.188212] (camera_ros) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.202360] (-) TimerEvent: {}
+[1.302717] (-) TimerEvent: {}
+[1.403062] (-) TimerEvent: {}
+[1.416021] (camera_ros) StdoutLine: {'line': b'-- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.500194] (camera_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.503131] (-) TimerEvent: {}
+[1.533571] (camera_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.569123] (camera_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.603264] (-) TimerEvent: {}
+[1.609529] (camera_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.703389] (-) TimerEvent: {}
+[1.761093] (camera_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.768344] (camera_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.803502] (-) TimerEvent: {}
+[1.903841] (-) TimerEvent: {}
+[1.950042] (camera_ros) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.980754] (camera_ros) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.003973] (-) TimerEvent: {}
+[2.022975] (camera_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.104116] (-) TimerEvent: {}
+[2.159697] (camera_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 28.1.9 (/opt/ros/jazzy/share/rclcpp_components/cmake)\n'}
+[2.204249] (-) TimerEvent: {}
+[2.227808] (camera_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[2.304389] (-) TimerEvent: {}
+[2.331337] (camera_ros) StdoutLine: {'line': b'-- Found camera_info_manager: 5.1.6 (/opt/ros/jazzy/share/camera_info_manager/cmake)\n'}
+[2.345250] (camera_ros) StdoutLine: {'line': b"-- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'\n"}
+[2.404508] (-) TimerEvent: {}
+[2.415678] (camera_ros) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[2.438355] (camera_ros) StdoutLine: {'line': b"-- Checking for module 'libcamera>=0.1'\n"}
+[2.465004] (camera_ros) StdoutLine: {'line': b'--   Found libcamera, version 0.5.0\n'}
+[2.504632] (-) TimerEvent: {}
+[2.548348] (camera_ros) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.604737] (-) TimerEvent: {}
+[2.705086] (-) TimerEvent: {}
+[2.802913] (camera_ros) StdoutLine: {'line': b"-- Added test 'clang_format' to check C / C++ code style\n"}
+[2.805155] (-) TimerEvent: {}
+[2.811133] (camera_ros) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.811622] (camera_ros) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.811780] (camera_ros) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.814514] (camera_ros) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.814759] (camera_ros) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.816940] (camera_ros) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.818665] (camera_ros) StdoutLine: {'line': b"-- Added test 'mypy' to statically type check Python code.\n"}
+[2.820370] (camera_ros) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.822213] (camera_ros) StdoutLine: {'line': b"-- Added test 'pyflakes' to perform static code analysis on Python code\n"}
+[2.824022] (camera_ros) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.828178] (camera_ros) StdoutLine: {'line': b'-- Configuring done (2.7s)\n'}
+[2.866583] (camera_ros) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.877442] (camera_ros) StdoutLine: {'line': b'-- Build files have been written to: /home/pi-mid70/ws_livox/src/build/camera_ros\n'}
+[2.900923] (camera_ros) CommandEnded: {'returncode': 0}
+[2.901762] (camera_ros) JobProgress: {'identifier': 'camera_ros', 'progress': 'build'}
+[2.902583] (camera_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pi-mid70/ws_livox/src/build/camera_ros', '--', '-j4', '-l4'], 'cwd': '/home/pi-mid70/ws_livox/src/build/camera_ros', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi-mid70', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/lib/aarch64-linux-gnu:/home/pi-mid70/ws_livox/install/livox_ros2_driver/lib:/home/pi-mid70/ws_livox/install/livox_interfaces/lib:/home/pi-mid70/ws_livox/install/camera_ros/lib:/home/pi-mid70/ws_livox/install/libcamera/lib:/home/pi-mid70/ws_livox/install/fast_lio/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/pi-mid70', 'OLDPWD': '/home/pi-mid70/ws_livox/src/libcamera', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1714', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/pi-mid70/ws_livox/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi-mid70', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/pi-mid70/ws_livox/install/libcamera/lib/pkgconfig', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'pi-mid70', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/pi-mid70/ws_livox/install/libcamera/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/pi-mid70:@/tmp/.ICE-unix/1674,unix/pi-mid70:/tmp/.ICE-unix/1674', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e9614655_c73b_4186_8ba5_c7e6ab14f79d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.8M4G82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.1081', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/pi-mid70/ws_livox/install/livox_ros2_driver:/home/pi-mid70/ws_livox/install/livox_sdk_vendor:/home/pi-mid70/ws_livox/install/livox_interfaces:/home/pi-mid70/ws_livox/install/camera_ros:/home/pi-mid70/ws_livox/install/fast_lio:/home/pi-mid70/ws_livox/install/calibration:/home/pi-mid70/ws_livox/install/bno085:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/pi-mid70/ws_livox/src/build/camera_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi-mid70/ws_livox/install/livox_interfaces/lib/python3.12/site-packages:/home/pi-mid70/ws_livox/install/libcamera/lib/python3.12/site-packages:/home/pi-mid70/ws_livox/install/fast_lio/lib/python3.12/site-packages:/home/pi-mid70/ws_livox/install/calibration/lib/python3.12/site-packages:/home/pi-mid70/ws_livox/build/bno085:/home/pi-mid70/ws_livox/install/bno085/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/pi-mid70/ws_livox/install/livox_ros2_driver:/home/pi-mid70/ws_livox/install/livox_sdk_vendor:/home/pi-mid70/ws_livox/install/livox_interfaces:/home/pi-mid70/ws_livox/install/camera_ros:/home/pi-mid70/ws_livox/install/fast_lio:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/pi-mid70/ws_livox/install/calibration:/home/pi-mid70/ws_livox/install/bno085:/opt/ros/jazzy'}), 'shell': False}
+[2.905230] (-) TimerEvent: {}
+[3.005985] (-) TimerEvent: {}
+[3.016297] (camera_ros) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/param.dir/src/clamp.cpp.o\x1b[0m\n'}
+[3.016698] (camera_ros) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/utils.dir/src/format_mapping.cpp.o\x1b[0m\n'}
+[3.016872] (camera_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/utils.dir/src/pretty_print.cpp.o\x1b[0m\n'}
+[3.018360] (camera_ros) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/camera_node.dir/rclcpp_components/node_main_camera_node.cpp.o\x1b[0m\n'}
+[3.106161] (-) TimerEvent: {}
+[3.207618] (-) TimerEvent: {}
+[3.308354] (-) TimerEvent: {}
+[3.409326] (-) TimerEvent: {}
+[3.509888] (-) TimerEvent: {}
+[3.612286] (-) TimerEvent: {}
+[3.712729] (-) TimerEvent: {}
+[3.813229] (-) TimerEvent: {}
+[3.916592] (-) TimerEvent: {}
+[4.019670] (-) TimerEvent: {}
+[4.124744] (-) TimerEvent: {}
+[4.230724] (-) TimerEvent: {}
+[4.331236] (-) TimerEvent: {}
+[4.433282] (-) TimerEvent: {}
+[4.533748] (-) TimerEvent: {}
+[4.637565] (-) TimerEvent: {}
+[4.738085] (-) TimerEvent: {}
+[4.838649] (-) TimerEvent: {}
+[4.939079] (-) TimerEvent: {}
+[5.039512] (-) TimerEvent: {}
+[5.142525] (-) TimerEvent: {}
+[5.162682] (camera_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/param.dir/build.make:76: CMakeFiles/param.dir/src/clamp.cpp.o] Interrupt\n'}
+[5.163049] (camera_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/param.dir/all] Interrupt\n'}
+[5.163280] (camera_ros) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[5.163381] (camera_ros) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[5.163469] (camera_ros) StderrLine: {'line': b'gmake[2]: *** wait: No child processes.  Stop.\n'}
+[5.163558] (camera_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/camera_node.dir/all] Error 2\n'}
+[5.163643] (camera_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/utils.dir/build.make:76: CMakeFiles/utils.dir/src/format_mapping.cpp.o] Interrupt\n'}
+[5.171372] (camera_ros) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/utils.dir/build.make:90: CMakeFiles/utils.dir/src/pretty_print.cpp.o] Interrupt\n'}
+[5.171695] (camera_ros) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/utils.dir/all] Interrupt\n'}
+[5.171803] (camera_ros) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[5.186274] (camera_ros) CommandEnded: {'returncode': -2}
+[5.199123] (camera_ros) JobEnded: {'identifier': 'camera_ros', 'rc': 'SIGINT'}
+[5.211138] (-) EventReactorShutdown: {}

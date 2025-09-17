@@ -1,0 +1,53 @@
+# Camera intrinsics
+fast_calib:
+  ros__parameters:
+
+    #best params
+    #fx: 968.6909
+    #fy: 965.2046
+    #cx: 309.268
+    #cy: 231.423
+
+    #k1: -0.01838
+    #k2: 0.95088
+    #p1: -0.00339
+    #p2: -0.00436
+    #k3: -3.4511
+
+    #params
+    fx: 679.1186214459227
+    fy: 677.0961197763755
+    cx: 409.69931501102604
+    cy: 313.4619344449667
+
+    k1: -0.15024746172069314
+    k2: 0.4684222865877523
+    p1: 0.008992812485098358
+    p2: 0.004826634380087028
+    k3: -0.5482601791121196
+
+    # Calibration target parameters
+    marker_size: 0.16 # ArUco marker size (our test data uses 0.16m; adjust to match your marker size)
+    delta_width_qr_center: 0.47 # Half the distance between the centers of two markers in the horizontal direction
+    delta_height_qr_center: 0.27 # Half the distance between the centers of two markers in the vertical direction
+    delta_width_circles: 0.4 # Distance between the centers of two circles in the horizontal direction
+    delta_height_circles: 0.3 # Distance between the centers of two circles in the vertical direction
+    circle_radius: 0.10 # Radius of the circle
+
+    # Distance filter
+    x_min: 0.8
+    x_max: 3.0
+    y_min: -1.0
+    y_max: 1.0
+    z_min: -0.5 # avia and mid360: -0.5 ouster: -0.8
+    z_max: 1.5
+
+    lidar_topic: "/livox/lidar" # /ouster/points /livox/points
+    bag_path: "/home/pi-mid70/ws_livox/calibration_extrinsiscs/calib_2/calib_2_0.db3"
+    image_path: "/home/pi-mid70/ws_livox/calibration_extrinsiscs/image.png"
+
+
+    # Output
+    output_path: "/home/pi-mid70/ws_livox/calibration_images_2"
+    # Add minimum detected markers parameter
+    min_detected_markers: 4

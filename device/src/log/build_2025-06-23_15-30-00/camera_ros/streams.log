@@ -1,0 +1,65 @@
+[0.030s] Invoking command in '/home/pi-mid70/ws_livox/src/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi-mid70/ws_livox/install/calibration:/home/pi-mid70/ws_livox/install/bno085:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi-mid70/ws_livox/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/pi-mid70/ws_livox/src/install/camera_ros
+[0.247s] -- The C compiler identification is GNU 13.3.0
+[0.431s] -- The CXX compiler identification is GNU 13.3.0
+[0.466s] -- Detecting C compiler ABI info
+[0.651s] -- Detecting C compiler ABI info - done
+[0.665s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.666s] -- Detecting C compile features
+[0.667s] -- Detecting C compile features - done
+[0.682s] -- Detecting CXX compiler ABI info
+[0.884s] -- Detecting CXX compiler ABI info - done
+[0.900s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.901s] -- Detecting CXX compile features
+[0.903s] -- Detecting CXX compile features - done
+[0.921s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[0.929s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.186s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.414s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.498s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.531s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.567s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.759s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.766s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.948s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.979s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.021s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.158s] -- Found rclcpp_components: 28.1.9 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[2.226s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.329s] -- Found camera_info_manager: 5.1.6 (/opt/ros/jazzy/share/camera_info_manager/cmake)
+[2.343s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.413s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[2.436s] -- Checking for module 'libcamera>=0.1'
+[2.463s] --   Found libcamera, version 0.5.0
+[2.546s] -- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.801s] -- Added test 'clang_format' to check C / C++ code style
+[2.809s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.809s] -- Configured cppcheck include dirs: 
+[2.809s] -- Configured cppcheck exclude dirs and/or files: 
+[2.812s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.812s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.815s] -- Added test 'lint_cmake' to check CMake code style
+[2.816s] -- Added test 'mypy' to statically type check Python code.
+[2.818s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.820s] -- Added test 'pyflakes' to perform static code analysis on Python code
+[2.822s] -- Added test 'xmllint' to check XML markup files
+[2.826s] -- Configuring done (2.7s)
+[2.864s] -- Generating done (0.0s)
+[2.875s] -- Build files have been written to: /home/pi-mid70/ws_livox/src/build/camera_ros
+[2.899s] Invoked command in '/home/pi-mid70/ws_livox/src/build/camera_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi-mid70/ws_livox/install/calibration:/home/pi-mid70/ws_livox/install/bno085:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/pi-mid70/ws_livox/src/camera_ros -DCMAKE_INSTALL_PREFIX=/home/pi-mid70/ws_livox/src/install/camera_ros
+[2.901s] Invoking command in '/home/pi-mid70/ws_livox/src/build/camera_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi-mid70/ws_livox/install/calibration:/home/pi-mid70/ws_livox/install/bno085:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi-mid70/ws_livox/src/build/camera_ros -- -j4 -l4
+[3.014s] [ 15%] [32mBuilding CXX object CMakeFiles/param.dir/src/clamp.cpp.o[0m
+[3.014s] [ 15%] [32mBuilding CXX object CMakeFiles/utils.dir/src/format_mapping.cpp.o[0m
+[3.015s] [ 30%] [32mBuilding CXX object CMakeFiles/utils.dir/src/pretty_print.cpp.o[0m
+[3.016s] [ 30%] [32mBuilding CXX object CMakeFiles/camera_node.dir/rclcpp_components/node_main_camera_node.cpp.o[0m
+[5.161s] gmake[2]: *** [CMakeFiles/param.dir/build.make:76: CMakeFiles/param.dir/src/clamp.cpp.o] Interrupt
+[5.161s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/param.dir/all] Interrupt
+[5.161s] gmake[2]: *** wait: No child processes.  Stop.
+[5.161s] gmake[2]: *** Waiting for unfinished jobs....
+[5.161s] gmake[2]: *** wait: No child processes.  Stop.
+[5.161s] gmake[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/camera_node.dir/all] Error 2
+[5.161s] gmake[2]: *** [CMakeFiles/utils.dir/build.make:76: CMakeFiles/utils.dir/src/format_mapping.cpp.o] Interrupt
+[5.169s] gmake[2]: *** [CMakeFiles/utils.dir/build.make:90: CMakeFiles/utils.dir/src/pretty_print.cpp.o] Interrupt
+[5.169s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/utils.dir/all] Interrupt
+[5.169s] gmake: *** [Makefile:146: all] Interrupt
+[5.185s] Invoked command in '/home/pi-mid70/ws_livox/src/build/camera_ros' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pi-mid70/ws_livox/install/calibration:/home/pi-mid70/ws_livox/install/bno085:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/pi-mid70/ws_livox/src/build/camera_ros -- -j4 -l4
