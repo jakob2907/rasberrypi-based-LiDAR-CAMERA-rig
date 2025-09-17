@@ -24,12 +24,8 @@ The goal is a robust pipeline from **ROS recording → synchronized pair export 
 > Replace the paths with your actual images (e.g., under `docs/images/`). Keep the names below or adapt them here.
 
 <p align="center">
-  <img src="docs/images/device_front.jpg" alt="Front view" width="48%"/>
-  <img src="docs/images/device_back.jpg"  alt="Back view"  width="48%"/>
-</p>
-<p align="center">
-  <img src="docs/images/device_side.jpg"  alt="Side view"  width="48%"/>
-  <img src="docs/images/in_use.jpg"       alt="Rig in use" width="48%"/>
+  <img src="docs/img_box.jpeg" width="48%"/>
+  <img src="docs/img_device.jpeg"   width="48%"/>
 </p>
 
 Additional sample outputs:
