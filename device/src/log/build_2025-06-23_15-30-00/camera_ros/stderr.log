@@ -1,0 +1,10 @@
+gmake[2]: *** [CMakeFiles/param.dir/build.make:76: CMakeFiles/param.dir/src/clamp.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/param.dir/all] Interrupt
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:222: CMakeFiles/camera_node.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/utils.dir/build.make:76: CMakeFiles/utils.dir/src/format_mapping.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/utils.dir/build.make:90: CMakeFiles/utils.dir/src/pretty_print.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/utils.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt
