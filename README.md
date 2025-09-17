@@ -33,11 +33,11 @@ Additional sample outputs:
 
 ## Features
 
-- 🎯 **Synchronized RGB + LiDAR pairs** from ROS bags (nearest-time matching with configurable tolerance)
-- 🖼️ **RGB-D frames** and **colored point clouds**
-- 🧩 **Depth densification** (optional)
-- 🧱 **ICP** (merge/register multiple scans)
-- 🧪 **Output for Uni-Fusion**-compatible output folder structure (RGB, Depth, metadata)
+- **Synchronized RGB + LiDAR pairs** from ROS bags (nearest-time matching with configurable tolerance)
+- **RGB-D frames** and **colored point clouds**
+- **Depth densification** (optional)
+- **ICP** (merge/register multiple scans)
+- **Output for Uni-Fusion**-compatible output folder structure (RGB, Depth, metadata)
 
 ---
 
