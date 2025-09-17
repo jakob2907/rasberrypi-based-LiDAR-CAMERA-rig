@@ -1,7 +1,7 @@
 # Raspberry Pi–based LiDAR–Camera Rig (Livox MID-70 + Global-Shutter MonoCam)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
-[![ROS 2](https://img.shields.io/badge/ROS2-jazzy%7Crolling-blue)](#software-stack--dependencies)
+[![ROS 2](https://img.shields.io/badge/ROS2-jazzy-blue)](#software-stack--dependencies)
 [![Open3D](https://img.shields.io/badge/Open3D-0.19%2B-blueviolet)](#software-stack--dependencies)
 > Handheld RGB-D scanner for outdoor/indoor scenes — developed as part of my Bachelor’s thesis at the Chair of Robotics (Informatik XVII), Julius-Maximilians-Universität Würzburg.
 ---
