@@ -5,7 +5,7 @@
 ![Device hero image](docs/images/device_hero.jpg)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
-[![ROS 2](https://img.shields.io/badge/ROS2-humble%7Crolling-blue)](#software-stack--dependencies)
+[![ROS 2](https://img.shields.io/badge/ROS2-jazzy%7Crolling-blue)](#software-stack--dependencies)
 [![Open3D](https://img.shields.io/badge/Open3D-0.19%2B-blueviolet)](#software-stack--dependencies)
 
 ---
